@@ -1,0 +1,31 @@
+{
+  "name": "hatube",
+  "version": "1.0.0",
+  "description": "The best way to watch videos.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwery1237/hatube.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/init.js"
+  },
+  "author": "Jinsoo Son<jinsu4768@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qwery1237/hatube/issues"
+  },
+  "homepage": "https://github.com/qwery1237/hatube#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.7",
+    "morgan": "^1.10.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
